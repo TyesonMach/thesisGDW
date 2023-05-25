@@ -1,0 +1,6 @@
+docker run \
+-e "ACCEPT_EULA=Y" \
+-e "SA_PASSWORD=Canhtoan@123" \
+--name tdw
+-p 1433:1433
+-d mcr.microsoft.com/mssql/server:2019-latest
